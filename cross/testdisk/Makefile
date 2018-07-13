@@ -9,7 +9,7 @@ DEPENDS = cross/ncurses cross/libuuid
 
 HOMEPAGE = http://www.cgsecurity.org/wiki/TestDisk
 COMMENT  = TestDisk is powerful free data recovery software
-
+INSTALL_PREFIX = /usr/local/synocli-disk
 GNU_CONFIGURE = 1
 
 include ../../mk/spksrc.cross-cc.mk
